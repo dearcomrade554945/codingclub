@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+</head>
+
+<body style="text-align:center;font-family:Arial;margin-top:50px;">
+
+<h3>Login</h3>
+
+<input id="u" placeholder="Username"><br><br>
+<input id="p" type="password" placeholder="Password"><br><br>
+
+<button onclick="login()">Login</button>
+
+<p id="m"></p>
+
+<script>
+function login(){
+document.getElementById("m").innerHTML =
+(document.getElementById("u").value=="admin" &&
+document.getElementById("p").value=="1234")
+? "Login Successful" : "Invalid Login";
+}
+</script>
+
+<script src="cordova.js"></script>
+
+</body>
+</html>

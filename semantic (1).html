@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Semantic HTML Demo</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+header{
+background:#333;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#555;
+padding:10px;
+color:white;
+}
+
+nav a{
+color:white;
+margin-right:15px;
+text-decoration:none;
+}
+
+.container{
+display:flex;
+margin:20px;
+}
+
+main{
+flex:3;
+padding:20px;
+}
+
+aside{
+flex:1;
+background:#f2f2f2;
+padding:20px;
+}
+
+section{
+margin-bottom:20px;
+}
+
+article{
+border:1px solid #ccc;
+padding:10px;
+margin-bottom:10px;
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.tag{
+color:red;
+font-weight:bold;
+}
+
+.desc{
+color:blue;
+font-size:14px;
+margin-bottom:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<p class="tag">&lt;header&gt;</p>
+<p class="desc">Used for the top section of the webpage. It usually contains the website title, logo, or introductory content.</p>
+<h1>My Semantic Website</h1>
+</header>
+
+<nav>
+<p class="tag">&lt;nav&gt;</p>
+<p class="desc">Defines the navigation menu of the website containing links to other pages or sections.</p>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="container">
+
+<main>
+
+<p class="tag">&lt;main&gt;</p>
+<p class="desc">Represents the main content area of the webpage that is unique to the page.</p>
+
+<section>
+
+<p class="tag">&lt;section&gt;</p>
+<p class="desc">Groups related content together within the main content.</p>
+
+<h2>Blog Articles</h2>
+
+<article>
+
+<p class="tag">&lt;article&gt;</p>
+<p class="desc">Represents independent content such as blog posts, news articles, or forum posts.</p>
+
+<h3>Learning Semantic HTML</h3>
+
+<figure>
+
+<p class="tag">&lt;figure&gt;</p>
+<p class="desc">Used to display media such as images, diagrams, or illustrations.</p>
+
+<img src="dear comrade nature.jpeg">
+
+<figcaption>
+<span class="tag">&lt;figcaption&gt;</span>
+<span class="desc">Provides a caption or description for the figure.</span>
+</figcaption>
+
+</figure>
+
+<p>Semantic HTML helps organize webpages clearly and improves accessibility.</p>
+
+</article>
+
+</section>
+
+</main>
+
+<aside>
+
+<p class="tag">&lt;aside&gt;</p>
+<p class="desc">Contains related information such as sidebars, related links, or advertisements.</p>
+
+<h3>Related Topics</h3>
+
+<ul>
+<li>HTML Basics</li>
+<li>CSS Layout</li>
+<li>JavaScript Intro</li>
+</ul>
+
+</aside>
+
+</div>
+
+<footer>
+
+<p class="tag">&lt;footer&gt;</p>
+<p class="desc">Defines the bottom section of the webpage containing copyright or contact information.</p>
+
+<p>Copyright 2026</p>
+
+</footer>
+
+</body>
+
+</html>

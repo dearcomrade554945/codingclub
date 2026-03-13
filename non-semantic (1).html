@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Non Semantic HTML Demo</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+}
+
+.header{
+background:#333;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.navigation{
+background:#555;
+padding:10px;
+color:white;
+}
+
+.navigation a{
+color:white;
+margin-right:15px;
+text-decoration:none;
+}
+
+.container{
+display:flex;
+margin:20px;
+}
+
+.maincontent{
+flex:3;
+padding:20px;
+}
+
+.sidebar{
+flex:1;
+background:#f2f2f2;
+padding:20px;
+}
+
+.section{
+margin-bottom:20px;
+}
+
+.article{
+border:1px solid #ccc;
+padding:10px;
+margin-bottom:10px;
+}
+
+.footer{
+background:#333;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.tag{
+color:red;
+font-weight:bold;
+}
+
+.desc{
+color:blue;
+font-size:14px;
+margin-bottom:10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">A generic container used to group the header content. It has no specific meaning.</p>
+
+<h1>My Non Semantic Website</h1>
+
+</div>
+
+<div class="navigation">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Used as a container for navigation links. The class name defines its purpose.</p>
+
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+
+</div>
+
+<div class="container">
+
+<div class="maincontent">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Acts as the main content container but does not convey meaning to browsers.</p>
+
+<div class="section">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Groups related content together.</p>
+
+<h2>Blog Articles</h2>
+
+<div class="article">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Represents an article using a generic container.</p>
+
+<h3>Learning Non Semantic HTML</h3>
+
+<img src="dear comrade nature.jpeg">
+
+<p>Non semantic HTML uses generic containers like div and span to structure a webpage.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="sidebar">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Used to create a sidebar section but does not provide semantic meaning.</p>
+
+<h3>Related Topics</h3>
+
+<ul>
+<li>HTML Basics</li>
+<li>CSS Layout</li>
+<li>JavaScript Intro</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer">
+
+<p class="tag">&lt;div&gt;</p>
+<p class="desc">Generic container used for footer content.</p>
+
+<p>&copy; 2026 My Non Semantic Website</p>
+
+</div>
+
+</body>
+
+</html>
